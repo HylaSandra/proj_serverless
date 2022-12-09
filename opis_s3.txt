@@ -1,0 +1,13 @@
+Amazon S3 w pełnej wersji nazywa się Simple Storage Service i jest usługą, która pozwala na dostęp do nieograniczonej ilości danych w dowolnym momencie, na wzór dysku o nieskończonej powierzchni. Wśród zalet można wymienić:
+•	Cena usługi uzależniona jest od faktycznie wykorzystywanych zasobów
+•	Nie ma potrzeby deklaracji konkretnej ilości miejsca, którą będziemy wykorzystywać
+•	Bezpieczeństwo pod kątem trwałości danych
+•	Ciągła dostępność
+•	Zabezpieczenia infrastruktury
+Jako wady wymieniłabym czynniki, które dotyczą całej infrastruktury Amazon'a:
+•	Firma lekko odstaje pod kątem rozwoju chmur hybrydowych
+•	Nadmiar możliwości powoduje problemy z wyborem odpowiedniego rozwiązania
+
+Wszystkie kluczowe funkcjonalności S3 oraz software’u powiązanego z tą usługą Amazon opisuje na podstronie: https://aws.amazon.com/s3/features/. Przykładem takiej funkcjonalności jest np. Storage Monitoring, który pozwala na monitorowanie wszelkich aktywności mających miejsce w naszym bucket’cie. Jest też Versioning, który który pozwala na stworzenie różnych wersji obiektów, przechowywanych w tym samym bucket’cie.
+
+Usługa Blob Storage Microsoft’u jest zasadniczo bardzo podobna w założeniach do S3. Główne różnice to cena usługi i dostosowanie do innych narzędzi wewnątrz ekosystemu. Wybór jednej z tych platform uzależniłabym przede wszystkim od tego, z jakich narzędzi w infrastrukturze aplikacji korzystam poza samym magazynem bloków – ceny również nie są znacznie różne, zatem to głównie integracja z pozostałym software’m byłaby decydującym czynnikiem.
